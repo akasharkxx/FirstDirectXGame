@@ -1,5 +1,6 @@
 #include "GraphicsEngine.h"
 #include "SwapChain.h"
+#include "DeviceContext.h"
 
 GraphicsEngine::GraphicsEngine()
 {
@@ -26,6 +27,7 @@ bool GraphicsEngine::init()
 	UINT num_features_levels = ARRAYSIZE(feature_levels); 
 
 	HRESULT res = 0;
+	ID3D11DeviceContext* m_imm_context;
 	for (UINT driver_type_index = 0; driver_type_index < num_driver_types;)
 	{
 		// this will create a directX device from which
@@ -48,6 +50,8 @@ bool GraphicsEngine::init()
 		return false;
 	}
 
+	m_imm_device_context = new DeviceContext(m_imm_context); 
+
 	m_d3d_device->QueryInterface(__uuidof(IDXGIDevice), (void**)&m_dxgi_device);
 	m_dxgi_device->GetParent(__uuidof(IDXGIAdapter), (void**)&m_dxgi_adapter);
 	// This factory will help us to create the swap chain
@@ -62,7 +66,7 @@ bool GraphicsEngine::release()
 	m_dxgi_adapter->Release();
 	m_dxgi_factory->Release();
 
-	m_imm_context->Release();
+	m_imm_device_context->release();
 	m_d3d_device->Release();
 
 	return true;
@@ -75,6 +79,11 @@ GraphicsEngine::~GraphicsEngine()
 SwapChain* GraphicsEngine::createSwapChain()
 {
 	return new SwapChain();
+}
+
+DeviceContext* GraphicsEngine::getImmediateDeviceContext()
+{
+	return this->m_imm_device_context;
 }
 
 GraphicsEngine* GraphicsEngine::get()

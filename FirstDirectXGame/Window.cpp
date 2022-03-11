@@ -87,13 +87,12 @@ bool Window::broadcast()
 {
 	MSG msg;
 
+	this->OnUpdate();
 	while (::PeekMessage(&msg, NULL, 0, 0, PM_REMOVE) > 0)
 	{
 		TranslateMessage(&msg);
 		DispatchMessage(&msg);
 	}
-
-	this->OnUpdate();
 
 	// To avoid CPU throttle
 	Sleep(1);

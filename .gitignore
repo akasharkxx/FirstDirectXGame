@@ -9,3 +9,6 @@
 *.log
 *.tlog
 *.ipch
+*.obj
+*.pdb
+*.idb
