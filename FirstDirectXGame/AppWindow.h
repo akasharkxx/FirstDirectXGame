@@ -3,6 +3,7 @@
 #include "GraphicsEngine.h"
 #include "SwapChain.h"
 #include "DeviceContext.h"
+#include "VertexBuffer.h"
 
 class AppWindow : public Window
 {
@@ -11,11 +12,12 @@ public:
 	~AppWindow();
 
 	// Inherited via Window
-	virtual void OnCreate() override;
-	virtual void OnUpdate() override;
-	virtual void OnDestroy() override;
+	virtual void onCreate() override;
+	virtual void onUpdate() override;
+	virtual void onDestroy() override;
 
 private:
 	SwapChain* m_swap_chain;
+	VertexBuffer* m_vb;
 };
 

@@ -16,9 +16,9 @@ public:
 	void setHWND(HWND hwnd);
 
 	// EVENTS
-	virtual void OnCreate();
-	virtual void OnUpdate();
-	virtual void OnDestroy();
+	virtual void onCreate();
+	virtual void onUpdate();
+	virtual void onDestroy();
 
 	~Window();
 protected:
