@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\Projects\From Scratch\FirstDirectXGame\FirstDirectXGame\</FILEPATH>
+      <FILENAME>AppWindow.cpp</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'AppWindow::m_swap_chain' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>AppWindow::{ctor}</FUNCTION>
+    <DECORATED>??0AppWindow@@QEAA@XZ</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>AppWindow::m_swap_chain</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\Projects\From Scratch\FirstDirectXGame\FirstDirectXGame\</FILEPATH>
+      <FILENAME>AppWindow.cpp</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'AppWindow::m_vb' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>AppWindow::{ctor}</FUNCTION>
+    <DECORATED>??0AppWindow@@QEAA@XZ</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>AppWindow::m_vb</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\Projects\From Scratch\FirstDirectXGame\FirstDirectXGame\</FILEPATH>
+      <FILENAME>AppWindow.cpp</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'AppWindow::m_cb' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>AppWindow::{ctor}</FUNCTION>
+    <DECORATED>??0AppWindow@@QEAA@XZ</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>AppWindow::m_cb</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\Projects\From Scratch\FirstDirectXGame\FirstDirectXGame\</FILEPATH>
+      <FILENAME>AppWindow.cpp</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'AppWindow::m_vs' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>AppWindow::{ctor}</FUNCTION>
+    <DECORATED>??0AppWindow@@QEAA@XZ</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>AppWindow::m_vs</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\Projects\From Scratch\FirstDirectXGame\FirstDirectXGame\</FILEPATH>
+      <FILENAME>AppWindow.cpp</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'AppWindow::m_ps' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>AppWindow::{ctor}</FUNCTION>
+    <DECORATED>??0AppWindow@@QEAA@XZ</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>AppWindow::m_ps</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\Projects\From Scratch\FirstDirectXGame\FirstDirectXGame\</FILEPATH>
+      <FILENAME>AppWindow.cpp</FILENAME>
+      <LINE>99</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>Consider using 'GetTickCount64' instead of 'GetTickCount'. Reason: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem</DESCRIPTION>
+    <FUNCTION>AppWindow::onUpdate</FUNCTION>
+    <DECORATED>?onUpdate@AppWindow@@UEAAXXZ</DECORATED>
+    <FUNCLINE>90</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

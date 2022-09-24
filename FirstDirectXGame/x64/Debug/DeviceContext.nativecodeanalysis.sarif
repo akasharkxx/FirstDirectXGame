@@ -1,0 +1,83 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.33.31629.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///e:/projects/from scratch/firstdirectxgame/firstdirectxgame/devicecontext.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "b17327e41b1235f7af99764327e9ace559906f12c2a76d405f57a5d9bffa1786"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/projects/from scratch/firstdirectxgame/firstdirectxgame/devicecontext.h"
+          },
+          "hashes": {
+            "sha-256": "a4dfcd6bfe09ea1c09f7093a7f093edef169488af0dfbdc30c2d5297681c6c8b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/projects/from scratch/firstdirectxgame/firstdirectxgame/swapchain.h"
+          },
+          "hashes": {
+            "sha-256": "9c3de5f68b2fc02b1dc6bea12b9cb2de46696dbe163244e06afaf5d508ce9963"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/projects/from scratch/firstdirectxgame/firstdirectxgame/vertexbuffer.h"
+          },
+          "hashes": {
+            "sha-256": "3bb0d23c8161f7f8370bbb06cca4fdd1bf85e5f0133c7c43d5be67256469cece"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/projects/from scratch/firstdirectxgame/firstdirectxgame/constantbuffer.h"
+          },
+          "hashes": {
+            "sha-256": "571dd398e1c72844b6d09b33f53c208159a901acee65112b24660ebe8e56de04"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/projects/from scratch/firstdirectxgame/firstdirectxgame/vertexshader.h"
+          },
+          "hashes": {
+            "sha-256": "ce8a81c32c4242089a210118343394a6fac0e9a6aafb465bd3d5816f06a46f14"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/projects/from scratch/firstdirectxgame/firstdirectxgame/pixelshader.h"
+          },
+          "hashes": {
+            "sha-256": "06a805b03a4572a6fef3445b4f4a04de0747bac7efea403bf70bba6ad2893feb"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>E:\Projects\From Scratch\FirstDirectXGame\FirstDirectXGame\</FILEPATH>
+      <FILENAME>AppWindow.cpp</FILENAME>
+      <LINE>22</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'AppWindow::m_swap_chain' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>AppWindow::{ctor}</FUNCTION>
+    <DECORATED>??0AppWindow@@QEAA@XZ</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>AppWindow::m_swap_chain</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\Projects\From Scratch\FirstDirectXGame\FirstDirectXGame\</FILEPATH>
+      <FILENAME>AppWindow.cpp</FILENAME>
+      <LINE>99</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>28159</DEFECTCODE>
+    <DESCRIPTION>Consider using 'GetTickCount64' instead of 'GetTickCount'. Reason: GetTickCount overflows roughly every 49 days.  Code that does not take that into account can loop indefinitely.  GetTickCount64 operates on 64 bit values and does not have that problem</DESCRIPTION>
+    <FUNCTION>AppWindow::onUpdate</FUNCTION>
+    <DECORATED>?onUpdate@AppWindow@@UEAAXXZ</DECORATED>
+    <FUNCLINE>90</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\Projects\From Scratch\FirstDirectXGame\FirstDirectXGame\</FILEPATH>
+      <FILENAME>ConstantBuffer.cpp</FILENAME>
+      <LINE>5</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ConstantBuffer::m_buffer' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ConstantBuffer::{ctor}</FUNCTION>
+    <DECORATED>??0ConstantBuffer@@QEAA@XZ</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ConstantBuffer::m_buffer</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\Projects\From Scratch\FirstDirectXGame\FirstDirectXGame\</FILEPATH>
+      <FILENAME>GraphicsEngine.cpp</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'GraphicsEngine::m_imm_device_context' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>GraphicsEngine::{ctor}</FUNCTION>
+    <DECORATED>??0GraphicsEngine@@QEAA@XZ</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>GraphicsEngine::m_imm_device_context</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\Projects\From Scratch\FirstDirectXGame\FirstDirectXGame\</FILEPATH>
+      <FILENAME>PixelShader.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'PixelShader::m_ps' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>PixelShader::{ctor}</FUNCTION>
+    <DECORATED>??0PixelShader@@QEAA@XZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>PixelShader::m_ps</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\Projects\From Scratch\FirstDirectXGame\FirstDirectXGame\</FILEPATH>
+      <FILENAME>SwapChain.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'SwapChain::m_swap_chain' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>SwapChain::{ctor}</FUNCTION>
+    <DECORATED>??0SwapChain@@QEAA@XZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>SwapChain::m_swap_chain</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\Projects\From Scratch\FirstDirectXGame\FirstDirectXGame\</FILEPATH>
+      <FILENAME>VertexBuffer.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'VertexBuffer::m_size_vertex' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>VertexBuffer::{ctor}</FUNCTION>
+    <DECORATED>??0VertexBuffer@@QEAA@XZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>VertexBuffer::m_size_vertex</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\Projects\From Scratch\FirstDirectXGame\FirstDirectXGame\</FILEPATH>
+      <FILENAME>VertexShader.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'VertexShader::m_vs' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>VertexShader::{ctor}</FUNCTION>
+    <DECORATED>??0VertexShader@@QEAA@XZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>VertexShader::m_vs</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>E:\Projects\From Scratch\FirstDirectXGame\FirstDirectXGame\</FILEPATH>
+      <FILENAME>Window.cpp</FILENAME>
+      <LINE>5</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Window::m_is_run' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Window::{ctor}</FUNCTION>
+    <DECORATED>??0Window@@QEAA@XZ</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Window::m_is_run</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

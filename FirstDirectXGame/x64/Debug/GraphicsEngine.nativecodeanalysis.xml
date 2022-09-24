@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\Projects\From Scratch\FirstDirectXGame\FirstDirectXGame\</FILEPATH>
+      <FILENAME>GraphicsEngine.cpp</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'GraphicsEngine::m_imm_device_context' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>GraphicsEngine::{ctor}</FUNCTION>
+    <DECORATED>??0GraphicsEngine@@QEAA@XZ</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>GraphicsEngine::m_imm_device_context</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\Projects\From Scratch\FirstDirectXGame\FirstDirectXGame\</FILEPATH>
+      <FILENAME>GraphicsEngine.cpp</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'GraphicsEngine::m_feature_level' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>GraphicsEngine::{ctor}</FUNCTION>
+    <DECORATED>??0GraphicsEngine@@QEAA@XZ</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>GraphicsEngine::m_feature_level</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\Projects\From Scratch\FirstDirectXGame\FirstDirectXGame\</FILEPATH>
+      <FILENAME>GraphicsEngine.cpp</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'GraphicsEngine::m_d3d_device' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>GraphicsEngine::{ctor}</FUNCTION>
+    <DECORATED>??0GraphicsEngine@@QEAA@XZ</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>GraphicsEngine::m_d3d_device</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\Projects\From Scratch\FirstDirectXGame\FirstDirectXGame\</FILEPATH>
+      <FILENAME>GraphicsEngine.cpp</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'GraphicsEngine::m_dxgi_device' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>GraphicsEngine::{ctor}</FUNCTION>
+    <DECORATED>??0GraphicsEngine@@QEAA@XZ</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>GraphicsEngine::m_dxgi_device</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\Projects\From Scratch\FirstDirectXGame\FirstDirectXGame\</FILEPATH>
+      <FILENAME>GraphicsEngine.cpp</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'GraphicsEngine::m_dxgi_adapter' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>GraphicsEngine::{ctor}</FUNCTION>
+    <DECORATED>??0GraphicsEngine@@QEAA@XZ</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>GraphicsEngine::m_dxgi_adapter</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\Projects\From Scratch\FirstDirectXGame\FirstDirectXGame\</FILEPATH>
+      <FILENAME>GraphicsEngine.cpp</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'GraphicsEngine::m_dxgi_factory' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>GraphicsEngine::{ctor}</FUNCTION>
+    <DECORATED>??0GraphicsEngine@@QEAA@XZ</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>GraphicsEngine::m_dxgi_factory</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\Projects\From Scratch\FirstDirectXGame\FirstDirectXGame\</FILEPATH>
+      <FILENAME>GraphicsEngine.cpp</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'GraphicsEngine::m_imm_context' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>GraphicsEngine::{ctor}</FUNCTION>
+    <DECORATED>??0GraphicsEngine@@QEAA@XZ</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>GraphicsEngine::m_imm_context</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

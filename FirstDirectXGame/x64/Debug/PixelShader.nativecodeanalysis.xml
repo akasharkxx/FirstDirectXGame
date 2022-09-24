@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\Projects\From Scratch\FirstDirectXGame\FirstDirectXGame\</FILEPATH>
+      <FILENAME>PixelShader.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'PixelShader::m_ps' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>PixelShader::{ctor}</FUNCTION>
+    <DECORATED>??0PixelShader@@QEAA@XZ</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>PixelShader::m_ps</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
