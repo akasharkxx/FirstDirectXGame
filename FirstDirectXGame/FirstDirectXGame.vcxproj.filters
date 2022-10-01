@@ -31,6 +31,15 @@
     <Filter Include="Game Engine\Graphics Engine\ConstantBuffer">
       <UniqueIdentifier>{8e3665fa-aa23-425e-94d1-1bd2001adb51}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Game Engine\Math">
+      <UniqueIdentifier>{2908073c-e26b-4dfc-95ae-b88b8a0c87d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Engine\Graphics Engine\IndexBuffer">
+      <UniqueIdentifier>{7b32b6ec-cc6c-426b-a259-b9ac3a67e235}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Engine\InputSystem">
+      <UniqueIdentifier>{3efbb77c-0624-43cf-b9b5-937be8755ba3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -63,6 +72,12 @@
     <ClCompile Include="ConstantBuffer.cpp">
       <Filter>Game Engine\Graphics Engine\ConstantBuffer</Filter>
     </ClCompile>
+    <ClCompile Include="IndexBuffer.cpp">
+      <Filter>Game Engine\Graphics Engine\IndexBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSystem.cpp">
+      <Filter>Game Engine\InputSystem</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AppWindow.h">
@@ -91,6 +106,21 @@
     </ClInclude>
     <ClInclude Include="ConstantBuffer.h">
       <Filter>Game Engine\Graphics Engine\ConstantBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3D.h">
+      <Filter>Game Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix4x4.h">
+      <Filter>Game Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBuffer.h">
+      <Filter>Game Engine\Graphics Engine\IndexBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSystem.h">
+      <Filter>Game Engine\InputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="InputListener.h">
+      <Filter>Game Engine\InputSystem</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
